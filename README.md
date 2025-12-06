@@ -8,7 +8,7 @@ apt update -y && apt upgrade -y --fix-missing && apt install -y xxd bzip2 wget c
 ```
 
 ```
-screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/vermiliion/udp-lite/main/udp.sh && chmod +x udp.sh && ./udp.sh; read -p 'Tekan enter untuk keluar...'"
+screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/vermiliion/udp-lite/main/udp-lite.sh && chmod +x udp-lite.sh && ./udp-lite.sh; read -p 'Tekan enter untuk keluar...'"
 ```
 Perintah Update Script
 ```
